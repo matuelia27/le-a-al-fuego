@@ -7,85 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="archivos-css/backup.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Leña al fuego</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Leña Al Fuego</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Leñas</a></li>
-                                <li><a class="dropdown-item" href="#">Carbon</a></li>
-                                <li><a class="dropdown-item" href="#">Maderitas</a></li>
+        <div class="container text-center">
 
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Mayorista</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Mi Cuenta
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Registro</a></li>
-                                <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+            <div class="row">
+                <div class="col">
 
-                            </ul>
-                        </li>
 
-                    </ul>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Leña Al Fuego</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Productos
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Leñas</a></li>
+                                            <li><a class="dropdown-item" href="#">Carbon</a></li>
+                                            <li><a class="dropdown-item" href="#">Maderitas</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Mayorista</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Mi Cuenta
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Registro</a></li>
+                                            <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-            </div>
-        </nav>
-
-    </header>
-
-    <section>
-
-
-
-        <div>
-            <img class="contenedor" src="imagenes/fotoespinillo.jpg" alt="foto espinillo">
-            <div>
-
-                <p class="letra-emcima">Leñas de la mejor calidad </p>
-
-
-
-                <p class="letra-emcima2">para tu parrila o para tu hogar</p>
-
-
-                <button class="letra-emcima3">ver mas</button>
-
             </div>
         </div>
 
+    </header>
+
+    <section class="imgprincipal">
 
 
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active imgespinillo">
+                    <img src="imagenes/fotoespinillo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>leñas de la mejor calidad </h2>
+                        <p>para tu parrilla y para tu hogar</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section class="seccion3">
@@ -123,7 +127,7 @@
         </div>
 
     </section>
-    
+
     <footer>
         <div class="container text-center container-footer ">
             <div class="row">
